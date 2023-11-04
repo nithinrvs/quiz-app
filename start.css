@@ -1,0 +1,94 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #00426C !important;
+}
+
+header{
+    padding: 40px ;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #DF9F1F;
+    background-color: #00426C;
+}
+
+.container{
+    background: #A6CEFF !important;
+    max-width: 100vw !important;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 100; 
+    padding-bottom: 40px;
+}
+
+
+.buttons{
+    width: 150px ;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.logout-btn{
+    display: flex;
+    align-items:flex-end;
+}
+
+.question-container {
+    padding: 10px; /* Add padding */
+    border: 2px solid #DF9F1F; /* Add a 1px border with the specified color */
+    margin-bottom: 10px; /* Add margin to separate questions */
+}
+
+.fade-out {
+    opacity: 0.5; /* Adjust the opacity level as needed */
+    pointer-events: none; /* Disable interactions with the button */
+    transition: opacity 0.5s; /* Apply a smooth transition effect */
+}
+
+.instructions h3{
+    color: #DF9F1F;
+
+}
+
+.instructions{
+    padding: 30px
+}
+
+.final-btn{
+    width: 300px ;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.final-marks{
+    padding: 30px;
+}
+
+/* Style for the container div */
+.timers-container {
+    position: fixed;
+    top: 120px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Style for timer displays within the container */
+.timers-container > div {
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
